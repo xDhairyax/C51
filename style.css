@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border-style: dotted;
+    margin: auto;
+}
+
+
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    flex-direction:row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: aqua;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    background-color: aqua;
+    text-align: center;
+}
